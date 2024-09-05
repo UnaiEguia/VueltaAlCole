@@ -1,10 +1,25 @@
 package com.ipartek.modelo.dto;
 
-public class Categoria {
+/**
+ * <b>Clase Categoria</b>
+ * <p>Clase categoria que referencia la tabla categorias en la BD</p>
+ * 
+ * @author Unai
+ *
+ */
 
+public class Categoria {
+	/**
+	 * Atributo ID:
+	 * <p>A LA HORA DE INSERTA EN LA BASE DE DATO AUTONUMERA</p>
+	 */
 	private int id;
+	/**
+	 * Atributo categoria:
+	 * varchar (45) en la BD
+	 */
 	private String categoria;
-	
+
 	public Categoria(int id, String categoria) {
 		super();
 		this.id = id;

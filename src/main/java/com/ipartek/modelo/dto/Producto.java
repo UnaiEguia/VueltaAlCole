@@ -1,5 +1,11 @@
 package com.ipartek.modelo.dto;
-
+/**
+ * <b>Clase Producto</b>
+ * <p>Clase producto que referencia la tabla categorias en la BD</p>
+ * 
+ * @author Unai
+ *
+ */
 public class Producto {
 
 	private int id;

@@ -1,5 +1,11 @@
 package com.ipartek.modelo.dto;
-
+/**
+ * <b>Clase V_Producto</b>
+ * <p>Clase v_producto que referencia la tabla categorias en la BD</p>
+ * 
+ * @author Unai
+ *
+ */
 public class V_Producto extends Producto{
 	
 	private String categoria;
