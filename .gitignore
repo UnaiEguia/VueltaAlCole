@@ -1,6 +1,12 @@
 # Compiled class file
 *.class
 
+#Estensiones de fotos
+*.jpg
+*.jpeg
+*.png
+*.
+
 # Log file
 *.log
 
